@@ -25,3 +25,6 @@ https://www.w3schools.com/css/css_syntax.asp
 
 https://htmlcheatsheet.com/css/
 
+
+### Day 1 Slides:
+http://bit.ly/AdvTecDay1
