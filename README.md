@@ -4,10 +4,15 @@
 
 ### HTML Resources:
 https://www.geeksforgeeks.org/html-basics/
+
 https://developer.mozilla.org/en-US/docs/Web/HTML
+
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals
+
 https://www.w3schools.com/html/html_basic.asp
+
 https://htmlcheatsheet.com/
+
 http://www.goodellgroup.com/tutorial/chapter1.html
 
 
