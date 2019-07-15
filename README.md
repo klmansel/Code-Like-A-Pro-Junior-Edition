@@ -13,7 +13,10 @@ http://www.goodellgroup.com/tutorial/chapter1.html
 
 ### CSS Resources:
 https://www.geeksforgeeks.org/css-introduction/
+
 https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Syntax
+
 https://www.w3schools.com/css/css_syntax.asp
+
 https://htmlcheatsheet.com/css/
 
