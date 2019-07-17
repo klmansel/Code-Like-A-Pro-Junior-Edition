@@ -1,6 +1,8 @@
 # Code-Like-A-Pro-Junior-Edition
 
-## About Me Project - Day 1 Project - HTML and CSS skills
+There are many more resources available for each technology, but we've listed a few to help you get started!
+
+## About Me Project - Day 1 - HTML and CSS skills
 
 ### HTML Resources:
 https://www.geeksforgeeks.org/html-basics/
@@ -28,3 +30,25 @@ https://htmlcheatsheet.com/css/
 
 ### Day 1 Slides:
 http://bit.ly/AdvTecDay1
+
+## Day 2 Word Game Project - Day 2 JavaScript Basics
+
+### JavaScript Resources:
+https://javascript.info/
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+https://www.tutorialspoint.com/javascript/
+
+https://htmlcheatsheet.com/js/
+
+
+## JavaScript Game Learning
+
+http://jsdares.com/
+
+http://www.crunchzilla.com/
+
+https://warriorjs.com/?ref=gh
+
+
