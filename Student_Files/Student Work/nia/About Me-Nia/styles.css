@@ -1,0 +1,38 @@
+body {
+	background: black;
+}
+h1 {
+	color: blue;
+	font-size: 25px;
+	text-align: center;
+}
+h2{
+	color: purple;
+	font-size: 25px;
+	text-align: center;
+}
+h3 {
+	color: teal;
+	font-size: 25px;
+	text-align: center;
+}
+h4{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+h5{
+	color: red;
+	font-size: 25px;
+	text-align: center;
+}
+img {
+	height: 150px;
+	width: 150px;
+	
+	}
+h6{
+	color: yellow;
+	font-size: 25px;
+	text-align: center;
+}

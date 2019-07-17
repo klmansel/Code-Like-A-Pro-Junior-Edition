@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2019 by anonymous (http://jsbin.com/tucasejawo/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hangman by James</title>
+</head>
+<body>
+<script>
+  //Ask the player for their name
+  var name = prompt("What is your name?");
+  console.log("Hi " + name);
+
+  alert("Guess my word!");
+
+  // Create an array of posibele words
+  var words = [
+    "happy",
+    "amazing",
+    "chocolate",
+    "cake",
+    "icecream"
+  ];
+
+  console.log("Words: " + words);
+
+  //Choose a word at random
+    var word = words[Math.floor(Math.random() * words.length)];
+    //Create an array to store the letter responses
+    var answerArray = [];
+    for (var i = 0; i < word.length; i++) {
+      answerArray[i]="_" ;
+    }
+    var remainingLetters = word.length;
+    alert("Here's my word: " + answerArray.join(" ") + "\n" + " Can you guess what it is?");
+    // The game loop
+    while (remainingLetters > 0) {
+      // Show the player their progress
+      alert(answerArray.join(" "));
+      var guess = prompt("Guess a letter, or click Cancel to stop playing.");
+        if (guess === null) {
+          exit;
+        } else if (guess.length !== 1) {
+          alert("Please enter a single letter.");
+        } else {
+      // Update the game state with the guess
+      for (var j = 0; j < word.length; j++) {
+          if (word[j] === guess) {
+            answerArray[j] = guess;
+            remainingLetters--;
+          } //end if
+        } //end for loop
+      } //end else
+    }//end game loop
+  // Show the answer and congratulate the player
+    alert(answerArray.join(" ") + "\n" + "Good job " + name + "! " + "The answer was " + word + ".");
+  </script>
+  </body>
+</html>

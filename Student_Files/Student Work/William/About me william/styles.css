@@ -1,0 +1,26 @@
+body {
+	background:blue;
+}
+h1{
+	text-align:center;
+	color:purple;
+	font-family:Arial;
+}
+h2{
+	font-size:15px;
+	font-family:verdana;
+	text-align:center;
+}
+a {
+	color:purple;
+}
+.house{
+	height:50%;
+	width:50%;
+	float:left;
+}
+.gif{
+	height:50%;
+	width:50%;
+	float:right;
+}

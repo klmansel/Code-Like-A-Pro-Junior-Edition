@@ -1,0 +1,17 @@
+body {
+	background-image: url("Endgame.png");
+}
+h1{
+	color: white;
+	text-align:center;
+}
+
+h2 {
+	color: white;
+}
+
+img {
+	height:450px;
+	width: 500px;
+	text-align:center;
+}

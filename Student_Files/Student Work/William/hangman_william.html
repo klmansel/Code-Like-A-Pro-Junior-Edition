@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2019 by anonymous (http://jsbin.com/ladikudoba/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>william's game</title>
+</head>
+<body>
+  <script>
+    // Ask the player for their name
+   var name = prompt("What is your name?");
+   console.log("Hi " + name);
+    
+    alert("Let's play a game!")
+    
+    //create an array
+    var words = [
+      "pc gaming",
+      "airfrance",
+      "dream",
+      "ski",
+      "america",
+      "rugby",
+    ];
+    
+   console.log("words: " + words);
+    
+    // choose a word at random
+    var word = words[Math.floor(Math.random() * words.length)];
+    console.log("the word is " + word);
+    
+    // create an array to store the letter responses
+    var answerArray = [];
+    
+    for(var i = 0; i <word. length; i++){
+      answerArray[i] = "_";
+    }
+    
+    var remainingLetters = word.length;
+    
+    alert("Here's my word: " + answerArray.join(" ") + "\n" + "Can you guess what it is?");
+    
+    //The game Loop
+    while (remainingLetters > 0) {
+      //show the player their progress
+      alert(answerArray.join(""));
+      
+      var guess = prompt ("Guess a letter or click cancel to stop playing.");
+      if(guess === null) {
+        exit;
+      }else if(guess.length !== 1){
+        alert("Please enter a single letter")
+      }else{
+        //Update the game state with the guess 
+        for(var j = 0; j< word.length; j++){
+          if(word[j] === guess){
+          answerArray[j] = guess;
+          remainingLetters --;
+           }
+        }
+      }
+    }
+    // Show the answer and congratulate the player
+    alert(answerArray.join("") + "\n" + "Goob job" + name + "! " + "The answer was" + word + ".")
+  </script>
+</body>
+</html>
