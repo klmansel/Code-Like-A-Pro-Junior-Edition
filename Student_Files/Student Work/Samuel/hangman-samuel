@@ -1,0 +1,61 @@
+	<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hangman by Samuel</title>
+</head>
+<body>
+  <script>
+    //Ask the player for their name
+    var playerName = prompt("What is your name?");
+    console.log("Hi " + playerName);
+
+    alert("Try to guess my word!");
+
+    // Create an array of possible words
+  var words = [
+    "rhubarb",
+    "feature",
+    "watermelon",
+    "sunshine",
+    "origami"
+  ];
+
+    console.log("Words: " + words);
+
+    //Choose a word at random
+    var word = words[Math.floor(Math.random() * words.length)];
+    console.log("The word is " + word);
+
+    //Create an array to store the letter responces
+    var answerArray = [];
+
+    for(var i = 0; i < word.length; i++){
+      answerArray[i] = "_";
+    }
+
+     alert("Here's my word: " + answerArray.join(" ") + "\n" + "Can you guess what the word is?");
+    //The Game Loop
+    while (remainingLetters > 0) {
+      //Show the player their process
+      alert(answerArray.join(""));
+
+      var guess = prompt("Guess a letter or click cancel to stop playing.")
+      if(guess === null) {
+        exit;
+      }else if(guess.length !== 1) {
+        alert("Please enter a single letter");
+      }else {
+        //Update the game state  with the guess
+        for(var j = 0; j < word.length; j++) {
+          if(word)[j] === guess) {
+            answerArray[j] = guess;
+            remainingLetters --;
+          }
+        }
+      }
+    }
+  </script>
+</body>
+</html>
