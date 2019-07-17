@@ -51,4 +51,23 @@ http://www.crunchzilla.com/
 
 https://warriorjs.com/?ref=gh
 
+# Build your own Drum Kit:
+  Wes Bos Drum Kit tutorial: https://www.youtube.com/watch?v=VuN8qwZoego
+  Drum Kit Files: https://github.com/wesbos/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit
+
+### Python Resources:
+https://www.tutorialspoint.com/python/index.htm
+
+https://www.learnpython.org/
+
+https://codeclubprojects.org/en-GB/python/
+
+https://hourofpython.trinket.io/from-blocks-to-code-with-trinket#/blocks/meet-tina
+
+# Python Syntax:
+https://www.tutorialspoint.com/python/python_basic_syntax
+
+https://jakevdp.github.io/WhirlwindTourOfPython/02-basic-python-syntax.html
+
+
 
