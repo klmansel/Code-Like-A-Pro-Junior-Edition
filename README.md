@@ -31,7 +31,7 @@ https://htmlcheatsheet.com/css/
 ### Day 1 Slides:
 http://bit.ly/AdvTecDay1
 
-## Day 2 Word Game Project - Day 2 JavaScript Basics
+## Day 2 Word Game Project - JavaScript Basics
 
 ### JavaScript Resources:
 https://javascript.info/
@@ -43,7 +43,7 @@ https://www.tutorialspoint.com/javascript/
 https://htmlcheatsheet.com/js/
 
 
-## JavaScript Game Learning
+### JavaScript Game Learning
 
 http://jsdares.com/
 
@@ -51,9 +51,11 @@ http://www.crunchzilla.com/
 
 https://warriorjs.com/?ref=gh
 
-# Build your own Drum Kit:
+### Build your own Drum Kit:
   Wes Bos Drum Kit tutorial: https://www.youtube.com/watch?v=VuN8qwZoego
   Drum Kit Files: https://github.com/wesbos/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit
+
+## Day 3 Python Basics
 
 ### Python Resources:
 https://www.tutorialspoint.com/python/index.htm
@@ -64,7 +66,7 @@ https://codeclubprojects.org/en-GB/python/
 
 https://hourofpython.trinket.io/from-blocks-to-code-with-trinket#/blocks/meet-tina
 
-# Python Syntax:
+### Python Syntax:
 https://www.tutorialspoint.com/python/python_basic_syntax
 
 https://jakevdp.github.io/WhirlwindTourOfPython/02-basic-python-syntax.html
