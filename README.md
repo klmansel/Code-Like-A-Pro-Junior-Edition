@@ -55,6 +55,9 @@ https://warriorjs.com/?ref=gh
   Wes Bos Drum Kit tutorial: https://www.youtube.com/watch?v=VuN8qwZoego
   Drum Kit Files: https://github.com/wesbos/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit
 
+### Day 2 Slides:
+http://bit.ly/AdvTecDay2
+
 ## Day 3 Python Basics
 
 ### Python Resources:
@@ -71,5 +74,5 @@ https://www.tutorialspoint.com/python/python_basic_syntax
 
 https://jakevdp.github.io/WhirlwindTourOfPython/02-basic-python-syntax.html
 
-
-
+### Day 3 Slides:
+http://bit.ly/AdvTecDay3
