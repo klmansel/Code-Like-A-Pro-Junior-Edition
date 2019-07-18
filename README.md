@@ -76,3 +76,8 @@ https://jakevdp.github.io/WhirlwindTourOfPython/02-basic-python-syntax.html
 
 ### Day 3 Slides:
 http://bit.ly/AdvTecDay3
+
+## Day 4 Ask Me Anything Project
+
+### Day 4 Slides:
+http://bit.ly/AdvTecDay4
